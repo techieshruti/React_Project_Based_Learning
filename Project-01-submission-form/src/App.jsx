@@ -2,7 +2,9 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>Welcome to React</div>
+    <div className='container'>
+      <h1>Application Form in React</h1>
+    </div>
   )
 }
 export default App
