@@ -1,10 +1,10 @@
 import React from "react";
 
-const Input = (props) => {  
+const Input = ({label,place}) => {  
     return(
         <div>
-            <label>{props.label}</label>
-            <input type="text" className="input" placeholder="Enter your first name"/>
+            <label>{label}</label>
+            <input type="text" className="input" placeholder={"Enter your "+place}/>
         </div>
     )
 }
