@@ -36,7 +36,10 @@ const App = () => {
         <option>Select your ans</option>
       </select><br/>
       <label>About</label><br/>
-      <textarea placeholder='about yourself'></textarea>
+      <textarea placeholder='about yourself'></textarea><br/>
+      <label>Submit OR Reset</label>
+      <button type='reset'>Reset</button>
+      <button type='submit+'>Submit</button>
       </form>
     </div>
   )
