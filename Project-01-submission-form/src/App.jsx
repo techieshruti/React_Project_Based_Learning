@@ -10,6 +10,13 @@ const App = () => {
       <Input label ="Last Name" place="last name" />
       <Input label ="Email" place="email"/>
       <Input label ="Contact" place="contact"/>
+      <label>Gender</label><br/>
+      <input type='radio'/>
+      <label>Male</label>
+      <input type='radio'/>
+      <label>Female</label>
+      <input type='radio'/>
+      <label>Others</label>
     </div>
   )
 }
