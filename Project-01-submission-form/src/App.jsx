@@ -25,6 +25,7 @@ const App = () => {
       <input type='checkbox'id='English'/>
       <label for="English">English</label>
       <input type='checkbox' id='math'/>
+      <label for="math">Maths</label>
       <input type='checkbox' id='science'/>
       <label for="science">Science</label>
       </div>
