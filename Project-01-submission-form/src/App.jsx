@@ -23,7 +23,6 @@ const App = () => {
       <div>
       <label >Your Best Subjects</label><br/>
       <input type='checkbox'id='English'/>
-      <label for="English">English</label>
       <input type='checkbox' id='math'/>
       <label for="math">Maths</label>
       <input type='checkbox' id='science'/>
