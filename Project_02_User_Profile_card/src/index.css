@@ -3,8 +3,8 @@ body{
 }
 
 .container{
-    width: 12rem;
-    height: 15rem;
+    width: 18rem;
+    height: 25rem;
     background-color: aliceblue;
     border-radius: 1rem;
 }
@@ -12,5 +12,49 @@ body{
 .top-btn{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.top-btn button{
+    border-radius: 1rem;
+    border: none;
+    color: #fff;
+    padding: 0.3rem 0.8rem;
+    background-color: rgb(78, 175, 78);
+}
+
+.center{
+    text-align: center;
+}
+
+.center img{
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.center h2{
+    margin: 0;
+}
+.center h4{
+    margin: 0;
+    padding-top: 0.5rem;
+}
+.center p{
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.center-btn{
+    display: flex;
     justify-content: space-evenly;
+}
+
+.center-btn button{
+    padding: 0.4rem 0.8rem;
+    border: 2px solid rgb(198, 198, 198);
+    border-radius: 1rem;
+}
+.center p{
+    padding: 0.5rem 0.8rem;
 }

@@ -6,13 +6,13 @@ const Card = () => {
       <div className='container'>
         <div className='top'>
           <div className='top-btn'>
-            <button>available</button>
+            <button>Available</button>
             <h3>$55/h</h3>
           </div>
         </div>
         <div className='center'>
-          <img src=''/>
-          <h1>Wade Wilson</h1>
+          <img src='https://plus.unsplash.com/premium_photo-1681488159219-e0f0f2542424?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=774'/>
+          <h2>Wade Wilson</h2>
           <h4>UI/UX Designer</h4>
           <div className='center-info'>
             <i></i>
