@@ -12,34 +12,34 @@ const App = () => {
       <Input label ="Email" place="email"/>
       <Input label ="Contact" place="contact"/>
       <div>
-        <label >Gender</label><br/>
-      <input type='radio' id='male'/>
-      <label for="male">Male</label>
-      <input type='radio' id='female'/>
-      <label for="female">Female</label>
-      <input type='radio' id='others'/>
-      <label for="others">Others</label>
+        <label className="input-label">Gender</label><br/>
+      <input type='radio' id='male' name='gender' className="input"/>
+      <label htmlFor="male">Male</label>
+      <input type='radio' id='female' name='gender' className="input"/>
+      <label htmlFor="female">Female</label>
+      <input type='radio' id='others' name='gender' className="input"/>
+      <label htmlFor="others">Others</label>
       </div>
-      <div>
-      <label >Your Best Subjects</label><br/>
-      <input type='checkbox'id='English'/>
-      <label for="English">English</label>
-      <input type='checkbox' id='math'/>
-      <label for="math">Maths</label>
-      <input type='checkbox' id='science'/>
-      <label for="science">Science</label>
-      </div>
-      <label>Upload Resume</label><br/>
-      <input type='file'/><br/>
-      <label>Select your choice</label><br/>
-      <select>
+  <div>
+  <label className="input-label">Your Best Subjects</label><br/>
+  <input type='checkbox' id='English' className="input"/>
+  <label htmlFor="English">English</label>
+  <input type='checkbox' id='math' className="input"/>
+  <label htmlFor="math">Maths</label>
+  <input type='checkbox' id='science' className="input"/>
+  <label htmlFor="science">Science</label>
+  </div>
+      <label className="input-label" htmlFor="resume">Upload Resume</label><br/>
+      <input type='file' id='resume' className="input"/><br/>
+      <label className="input-label" htmlFor="choice">Select your choice</label><br/>
+      <select id='choice' className="input">
         <option>Select your ans</option>
       </select><br/>
-      <label>About</label><br/>
-      <textarea placeholder='about yourself'></textarea><br/>
-      <label>Submit OR Reset</label>
-      <button type='reset'>Reset</button>
-      <button type='submit+'>Submit</button>
+      <label className="input-label" htmlFor="about">About</label><br/>
+      <textarea id='about' className="input" placeholder='about yourself'></textarea><br/>
+      <label className="input-label">Submit OR Reset</label>
+      <button type='reset' className="input">Reset</button>
+      <button type='submit' className="input">Submit</button>
       </form>
     </div>
   )
