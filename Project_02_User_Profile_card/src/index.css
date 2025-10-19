@@ -1,0 +1,16 @@
+body{
+    background-color: #000;
+}
+
+.container{
+    width: 12rem;
+    height: 15rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+
+.top-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
