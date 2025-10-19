@@ -35,3 +35,7 @@ body{
   font-size: 1.2rem;
   padding-bottom: 1rem;
 }
+
+.input :focus{
+  border-color: #222;
+}

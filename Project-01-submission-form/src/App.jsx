@@ -22,12 +22,12 @@ const App = () => {
       </div>
   <div>
   <label className="input-label">Your Best Subjects</label><br/>
-  <input type='checkbox' id='English' className="input"/>
-  <label htmlFor="English">English</label>
-  <input type='checkbox' id='math' className="input"/>
-  <label htmlFor="math">Maths</label>
-  <input type='checkbox' id='science' className="input"/>
-  <label htmlFor="science">Science</label>
+  <input type='checkbox' id='javaScript' className="input"/>
+  <label htmlFor="javaScript">JavaScript</label>
+  <input type='checkbox' id='react' className="input"/>
+  <label htmlFor="react">React</label>
+  <input type='checkbox' id='css3' className="input"/>
+  <label htmlFor="css3">CSS3</label>
   </div>
       <label className="input-label" htmlFor="resume">Upload Resume</label><br/>
       <input type='file' id='resume' className="input"/><br/>
@@ -37,7 +37,7 @@ const App = () => {
       </select><br/>
       <label className="input-label" htmlFor="about">About</label><br/>
       <textarea id='about' className="input" placeholder='about yourself'></textarea><br/>
-      <label className="input-label">Submit OR Reset</label>
+      <label className="input-label">Submit OR Reset</label><br/>
       <button type='reset' className="input">Reset</button>
       <button type='submit' className="input">Submit</button>
       </form>
