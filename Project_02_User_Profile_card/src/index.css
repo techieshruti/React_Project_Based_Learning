@@ -4,9 +4,9 @@ body{
 
 .container{
     width: 18rem;
-    height: 25rem;
     background-color: aliceblue;
     border-radius: 1rem;
+    text-align: center;
 }
 
 .top-btn{
@@ -57,4 +57,11 @@ body{
 }
 .center p{
     padding: 0.5rem 0.8rem;
+}
+.bottom{
+    padding-bottom: 1rem;
+}
+.bottom a{
+    font-weight: 600;
+    color: rgb(78, 74, 74);
 }

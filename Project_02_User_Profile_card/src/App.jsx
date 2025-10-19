@@ -28,7 +28,7 @@ const Card = () => {
         </div>
         <div className='bottom'>
           <hr/>
-          <button>VIEW PROFILE</button>
+          <a>VIEW PROFILE</a>
         </div>
       </div>
     </div>
