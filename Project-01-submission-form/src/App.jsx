@@ -37,9 +37,12 @@ const App = () => {
       </select><br/>
       <label className="input-label" htmlFor="about">About</label><br/>
       <textarea id='about' className="input" placeholder='about yourself'></textarea><br/>
-      <label className="input-label">Submit OR Reset</label><br/>
-      <button type='reset' className="input">Reset</button>
-      <button type='submit' className="input">Submit</button>
+      
+        <label className="input-label">Submit OR Reset</label><br/>
+      <div className='bottom'>
+      <button type='reset' className="btn">Reset</button>
+      <button type='submit' className="btn">Submit</button>
+      </div>
       </form>
     </div>
   )
