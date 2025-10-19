@@ -10,7 +10,7 @@ const App = () => {
         <Input label ="First Name" place="first name" />
       <Input label ="Last Name" place="last name" />
       <Input label ="Email" place="email"/>
-      <Input label ="Contact" place="contact"/>
+      <Input label ="Contact" place="co+ntact"/>
       <div>
         <label className="input-label">Gender</label><br/>
       <input type='radio' id='male' name='gender' className="input"/>
