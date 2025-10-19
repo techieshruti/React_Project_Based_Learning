@@ -24,8 +24,12 @@ const Card = () => {
             <button>Photoshop</button>
             <button>+4</button>            
           </div>
+          <p>Wade is 32 year old UI/UX designer with an impressive portfolio behind him.</p>
         </div>
-        <div className='bottom'></div>
+        <div className='bottom'>
+          <hr/>
+          <button>VIEW PROFILE</button>
+        </div>
       </div>
     </div>
   )
