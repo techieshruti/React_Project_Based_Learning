@@ -4,5 +4,5 @@ import './index.css'
 import Card from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
-    <Card />
+   <Card />     
 )

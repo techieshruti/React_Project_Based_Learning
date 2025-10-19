@@ -2,7 +2,7 @@ body{
     background-color: #000;
 }
 
-.container{
+.card-container{
     width: 18rem;
     background-color: aliceblue;
     border-radius: 1rem;
@@ -54,6 +54,7 @@ body{
     padding: 0.4rem 0.8rem;
     border: 2px solid rgb(198, 198, 198);
     border-radius: 1rem;
+    cursor: pointer;
 }
 .center p{
     padding: 0.5rem 0.8rem;
@@ -64,4 +65,5 @@ body{
 .bottom a{
     font-weight: 600;
     color: rgb(78, 74, 74);
+    cursor: pointer;
 }

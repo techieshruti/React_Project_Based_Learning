@@ -3,7 +3,7 @@ import React from 'react'
 const Card = () => {
   return (
     <div>
-      <div className='container'>
+      <div className='card-container'>
         <div className='top'>
           <div className='top-btn'>
             <button>Available</button>
