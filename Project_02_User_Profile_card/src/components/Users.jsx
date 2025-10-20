@@ -28,7 +28,7 @@ const Users = () => {
         </div>
         <div className='bottom'>
           <hr/>
-          <a>VIEW PROFILE</a>
+          <a>VIEW </a>
         </div>
       </div>
     </div>
