@@ -21,7 +21,7 @@ const Users = () => {
           <div className='center-btn'>
             <button>UI</button>
             <button>UX</button>            
-            <button></button>
+            <button>Photoshop</button>
             <button>+4</button>            
           </div>
           <p>Wade is 32 year old UI/UX designer with an impressive portfolio behind him.</p>
