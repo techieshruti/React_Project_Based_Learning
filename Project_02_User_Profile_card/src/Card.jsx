@@ -1,9 +1,8 @@
 import React from 'react'
 import Users from './components/Users'
-import { createRoot } from 'react-dom/client'
 
 const Card = () => {
-  const Users = [
+  const usersData = [
   {
     id: 1,
     name: "Aisha Kapoor",
@@ -173,7 +172,9 @@ const Card = () => {
 
   return (
     <div>
-      <Users/>
+      {usersData.map(user => (
+        <Users key={user.id} {...user} />
+      ))}
     </div>
   )
 }
