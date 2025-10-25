@@ -56,13 +56,13 @@ UserProfiles/
 
 🧩 How It Works
 ---
-mockData.js contains an array of 15 user objects.
+- mockData.js contains an array of 15 user objects.
 
-The Card component maps through that array and renders one <Users /> component for each item.
+- The Card component maps through that array and renders one <Users /> component for each item.
 
-Flexbox (.container) ensures all cards display side by side and wrap neatly.
+- Flexbox (.container) ensures all cards display side by side and wrap neatly.
 
-Each card’s design and details are dynamically pulled from props.
+- Each card’s design and details are dynamically pulled from props.
 
 ---
 
