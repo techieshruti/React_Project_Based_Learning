@@ -23,7 +23,7 @@ const Card = () => {
     shortIntro: "Builds fast, accessible web apps with a strong emphasis on clean code.",
     availability: "offline",
     pay: "$40/h",
-    image: "https://i.pravatar.cc/150?img=2"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ1xQfwy9FYMIu5SON7A0Xi8boBBx2TuIzh6bYUzzgbisJRwCn0giGQ0hrR3R0q9dRxlw&usqp=CAU"
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const Card = () => {
     shortIntro: "Empathetic researcher and designer who crafts intuitive user journeys.",
     availability: "available",
     pay: "$65/h",
-    image: "https://img.freepik.com/free-photo/3d-cartoon-character_23-2151021986.jpg?semt=ais_hybrid&w=740&q=80"
+    image: "https://img.freepik.com/premium-photo/fun-unique-cartoon-profile-picture-that-represents-your-style-personality_1283595-14213.jpg"
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ const Card = () => {
     shortIntro: "Creates distinctive visual systems and brand assets that scale.",
     availability: "offline",
     pay: "$50/h",
-    image: "https://i.pinimg.com/736x/f5/61/88/f56188980615ee32fe42d4fd597b3ca3.jpg"
+    image: "https://imgcdn.stablediffusionweb.com/2024/4/13/b3bec860-a583-42cd-a352-3f81dbc8fa0c.jpg"
   },
   {
     id: 5,
@@ -67,7 +67,7 @@ const Card = () => {
     shortIntro: "Focuses on delightful interactions and pragmatic design systems.",
     availability: "available",
     pay: "$60/h",
-    image: "https://i.pravatar.cc/150?img=6"
+    image: "https://imgcdn.stablediffusionweb.com/2024/4/21/ef5c1523-2585-4e05-8a46-76391f68f5c9.jpg"
   },
   {
     id: 7,
@@ -78,7 +78,7 @@ const Card = () => {
     shortIntro: "Bridges product strategy and design to drive measurable outcomes.",
     availability: "offline",
     pay: "$45/h",
-    image: "https://i.pravatar.cc/150?img=7"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSODqPKqrC6haYcBKa3nSg64wBP7j-6trl0Q2x5_D_kuF18r8PiWeJJFKltnta_QrxowGc&usqp=CAU"
   },
   {
     id: 8,
@@ -89,7 +89,7 @@ const Card = () => {
     shortIntro: "Designs micro-interactions that make products feel alive.",
     availability: "available",
     pay: "$52/h",
-    image: "https://i.pravatar.cc/150?img=8"
+    image: "https://www.consoledot.com/assets/images/team/team-1.webp"
   },
   {
     id: 9,
@@ -111,7 +111,7 @@ const Card = () => {
     shortIntro: "Visual designer who builds reusable UI components and style guides.",
     availability: "offline",
     pay: "$42/h",
-    image: "https://i.pravatar.cc/150?img=10"
+    image: "https://i.pravatar.cc/150?img=11"
   },
   {
     id: 11,
@@ -122,7 +122,7 @@ const Card = () => {
     shortIntro: "Ensures products are usable by everyone through accessibility best practices.",
     availability: "available",
     pay: "$70/h",
-    image: "https://i.pravatar.cc/150?img=11"
+    image: "https://i.pravatar.cc/150?img=10"
   },
   {
     id: 12,
@@ -144,7 +144,7 @@ const Card = () => {
     shortIntro: "Cross-functional designer who ships features end-to-end with PMs and engineers.",
     availability: "available",
     pay: "$58/h",
-    image: "https://i.pravatar.cc/150?img=13"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR400dYqEE1knYN3xKSZ5i-EU0aK1lfbd2RRiw3Kshkb5cuecUMSwcFRnh-bSu8mjJIiy0&usqp=CAU"
   },
   {
     id: 14,
@@ -166,7 +166,7 @@ const Card = () => {
     shortIntro: "Human-centered designer focused on measurable product improvements.",
     availability: "offline",
     pay: "$47/h",
-    image: "https://i.pravatar.cc/150?img=15"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl0NmX5y0UOpL7nuqMF2IjwwlUY0MqWHBpuG88L_IuFActK0LyfrPi50fd83u5t6qWqwM&usqp=CAU"
   }
 ];
 
