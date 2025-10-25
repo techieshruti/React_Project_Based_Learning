@@ -30,7 +30,7 @@ const Card = () => {
     name: "Neha Singh",
     designation: "Product Designer",
     type: "Freelancer",
-    keySkills: ["UX Research", "Wireframing", "Sketch", "User Testing"],
+    keySkills: ["UX Research", "Sketch", "User Testing"],
     shortIntro: "Empathetic researcher and designer who crafts intuitive user journeys.",
     availability: "available",
     pay: "$65/h",

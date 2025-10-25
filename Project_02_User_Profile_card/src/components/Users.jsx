@@ -18,10 +18,10 @@ const Users = ({ name, designation, pay, image, availability, shortIntro, keySki
           <p>{shortIntro}</p>
         </div>
         <div className='center-btn'>
-          {keySkills && keySkills.slice(0,4).map((skill, idx) => (
+          {keySkills && keySkills.slice(0,3).map((skill, idx) => (
             <button key={idx}>{skill}</button>
           ))}
-          {keySkills && keySkills.length > 4 && <button>+{keySkills.length - 4}</button>}
+          {keySkills && keySkills.length > 3 && <button>+{keySkills.length - 3}</button>}
         </div>
         <p>{shortIntro}</p>
       </div>

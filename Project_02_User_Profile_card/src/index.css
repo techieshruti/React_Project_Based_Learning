@@ -66,6 +66,7 @@ body{
     border: 2px solid rgb(198, 198, 198);
     border-radius: 1rem;
     cursor: pointer;
+    background-color: white;
 }
 .center p{
     padding: 0.5rem 0.8rem;
