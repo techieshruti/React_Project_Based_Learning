@@ -3,7 +3,7 @@ import React from 'react'
 const Users = ({ name, designation, pay, image, availability, shortIntro, keySkills }) => {
   return (
     <div className='container'>
-    <div className='card-container'>
+        <div className='card-container'>
       <div className='top'>
         <div className='top-btn'>
           <button>{availability === 'available' ? 'Available' : 'Offline'}</button>
