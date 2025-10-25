@@ -18,6 +18,8 @@ Each card shows a user's photo, designation, hourly pay, skills, and availabilit
 ---
 
 ## 📂 Project Structure
+
+```
 UserProfiles/
 ├── src/
 │ ├── main.jsx # React entry point
@@ -29,8 +31,7 @@ UserProfiles/
 ├── index.html
 ├── package.json
 └── README.md
-
----
+```
 
 ## 🧠 Component Overview
 
@@ -53,7 +54,7 @@ UserProfiles/
 
 ---
 
-##🧩 How It Works
+🧩 How It Works
 ---
 mockData.js contains an array of 15 user objects.
 
@@ -65,7 +66,7 @@ Each card’s design and details are dynamically pulled from props.
 
 ---
 
-##🧰 Tech Stack
+🧰 Tech Stack
 
 Frontend: React.js
 
