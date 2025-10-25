@@ -12,7 +12,7 @@ const Card = () => {
     shortIntro: "Product-focused designer who turns user research into pixel-perfect interfaces.",
     availability: "available",
     pay: "$55/h",
-    image: "https://i.pravatar.cc/150?img=1"
+    image: "https://img.freepik.com/free-photo/3d-cartoon-style-character_23-2151034019.jpg?semt=ais_hybrid&w=740&q=80"
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const Card = () => {
     shortIntro: "Empathetic researcher and designer who crafts intuitive user journeys.",
     availability: "available",
     pay: "$65/h",
-    image: "https://i.pravatar.cc/150?img=3"
+    image: "https://img.freepik.com/free-photo/3d-cartoon-character_23-2151021986.jpg?semt=ais_hybrid&w=740&q=80"
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ const Card = () => {
     shortIntro: "Creates distinctive visual systems and brand assets that scale.",
     availability: "offline",
     pay: "$50/h",
-    image: "https://i.pravatar.cc/150?img=4"
+    image: "https://i.pinimg.com/736x/f5/61/88/f56188980615ee32fe42d4fd597b3ca3.jpg"
   },
   {
     id: 5,
@@ -56,7 +56,7 @@ const Card = () => {
     shortIntro: "Data-driven researcher who uncovers the why behind user behavior.",
     availability: "available",
     pay: "$48/h",
-    image: "https://i.pravatar.cc/150?img=5"
+    image: "https://images.genai.works/image_84f620fda2.png"
   },
   {
     id: 6,
@@ -171,7 +171,7 @@ const Card = () => {
 ];
 
   return (
-    <div>
+    <div className='container'>
       {usersData.map(user => (
         <Users key={user.id} {...user} />
       ))}
