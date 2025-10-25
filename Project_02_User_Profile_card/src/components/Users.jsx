@@ -2,6 +2,7 @@ import React from 'react'
 
 const Users = ({ name, designation, pay, image, availability, shortIntro, keySkills }) => {
   return (
+    <div className='container'>
     <div className='card-container'>
       <div className='top'>
         <div className='top-btn'>
@@ -28,6 +29,7 @@ const Users = ({ name, designation, pay, image, availability, shortIntro, keySki
         <hr/>
         <a>VIEW PROFILE</a>
       </div>
+    </div>
     </div>
   )
 }

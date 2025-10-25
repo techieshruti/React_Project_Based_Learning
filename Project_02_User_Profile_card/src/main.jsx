@@ -4,7 +4,7 @@ import './index.css'
 import Card from './Card.jsx'
 
 createRoot(document.getElementById('root')).render(
-<div className='container'>
+
     <Card />
-</div>
+
 )
