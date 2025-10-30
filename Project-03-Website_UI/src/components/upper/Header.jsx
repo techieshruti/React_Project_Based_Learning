@@ -4,7 +4,7 @@ import Button from './Button';
 
 export default function Header() {
   return (
-    <div className='bg-[#f7ebcb] flex justify-around items-center px-12 py-3 sticky top-0 z-10'>
+    <div className='bg-[#f7ebca] flex justify-around items-center px-12 py-3 sticky top-0 z-10'>
         <div className='flex flex-col items-center font-bold text-2xl cursor-pointer'>
         <ChefHat />
         <h2>BAKERY</h2>
