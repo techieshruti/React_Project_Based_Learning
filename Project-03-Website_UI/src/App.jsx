@@ -5,6 +5,7 @@ import { Center } from './components/center/Center'
 import bread from './assets/bread.jpg'
 import cake from './assets/cake.jpg'
 import croissant from './assets/croissant.jpg'
+import Lower from './components/lower/Lower'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
    <>
     <Upper />
     <Center CardData={CardData}/>
+    <Lower/>
    </>
   )
 }
