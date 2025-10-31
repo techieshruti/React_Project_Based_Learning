@@ -4,7 +4,7 @@ import { CenterCards } from './CenterCards'
 
 export const Center = () => {
   return (
-    <div className='bg-[#f7ebca] h-screen w-screen'>
+    <div className='bg-[#f7ebca] h-screen'>
         <CenterText/>
         <CenterCards/>
     </div>
