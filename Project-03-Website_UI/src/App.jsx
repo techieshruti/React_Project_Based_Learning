@@ -12,17 +12,17 @@ function App() {
     {
       img:bread,
       title:'Artisan Bread',
-      intro:'a handcrafted, high-quality bread made with traditional methods and simple, natural ingredients'
+      intro:'A handcrafted, high-quality bread made with traditional methods and simple, natural ingredients'
     },
     {
       img:cake,
       title:'Custom Cakes',
-      intro:'personalized, handcrafted creations designed specifically for a unique event or individual'
+      intro:'Personalized, handcrafted creations designed specifically for a unique event or individual'
     },
     {
       img:croissant,
       title:'Buttery Croissant',
-      intro:'a buttery, flaky, crescent-shaped pastry with a delicate, airy interior'
+      intro:'A versatile, buttery, & flaky loaf made from a laminated yeast dough, offering the rich taste in a bread'
     }
   ];
   return (
