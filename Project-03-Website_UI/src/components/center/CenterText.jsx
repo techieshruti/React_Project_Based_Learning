@@ -3,7 +3,7 @@ import { HandPlatter } from 'lucide-react';
 
 export const CenterText = () => {
   return (
-    <div className='flex flex-col items-center justify-center px-40 py-10'>
+    <div className='flex flex-col items-center justify-center px-40 py-6'>
         {/* icon */}
         <HandPlatter className='w-20 h-20 text-[#a36033] drop-shadow-xl'/>
         {/* heading */}
