@@ -1,28 +1,38 @@
-import React from 'react'
-import { CenterText } from './CenterText'
-import { CenterCards } from './CenterCards'
-import Image from '../../assets/cafe-image.jpg'
-// bg-[#f7ebca]
+import React from "react";
+import { CenterText } from "./CenterText";
+import { CenterCards } from "./CenterCards";
+import Image from "../../assets/cafe-image.jpg";
+
 export const Center = (props) => {
   return (
-    <div className='h-scrren w-full flex flex-col min-h-screen'>
-    {/* Left Image Section */}
-  <div
-    className="w-[30%] h-full bg-cover bg-center"
-    style={{
-      backgroundImage: "url(`https://images.unsplash.com/photo-1696635003475-cb0498daca93?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=387`)",
-    }}
-  ></div>
+    <div className="h-screen w-full flex flex-row relative">
+      {/* Left Image Section with fade-out effect */}
+      <div
+        className="w-[30%] h-screen bg-cover bg-center"
+        style={{
+          backgroundImage: `linear-gradient(to right, rgba(255,255,255,0) 60%, #fff7e6 100%), url(${Image})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+        }}
+      >
+        {/* slight dark overlay */}
+  <div className="absolute inset-0 bg-yellow/15"></div>
+      </div>
 
-  {/* Right Gradient Section */}
-  <div
-    className="w-[70%] h-full"
-    style={{
-      background: "linear-gradient(to right, #fff7e6, #fdf4dc, #fbeec2)", // adjust shades
-    }}
-  ></div>
-        <CenterText/>
-        <CenterCards CardData={props.CardData}/>
+      {/* Right Gradient Section */}
+      <div
+        className="w-[70%] h-screen"
+        style={{
+          background: 'linear-gradient(to right, #fff7e6, #fdf4dc, #fbeec2)',
+        }}
+      ></div>
+
+      {/* Overlay content */}
+      <div className="absolute flex flex-col items-center justify-center text-center">
+        <CenterText />
+        <CenterCards CardData={props.CardData} />
+      </div>
     </div>
-  )
-}
+  );
+};
