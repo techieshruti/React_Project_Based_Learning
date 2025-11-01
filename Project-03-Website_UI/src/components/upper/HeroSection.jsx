@@ -14,7 +14,7 @@ export default function HeroSection() {
 
       {/* Overlay content */}
       <div className="absolute inset-0 flex items-center justify-center bg-black/40 sm:px-8">
-        <div className="text-center bg-[#f5efe6]/30 text-[#f5f5d6] rounded-3xl p-4 sm:p-8 max-w-lg md:max-w-lg">
+        <div className="text-center bg-[#f5efe6]/30 text-[#f5f5d6] rounded-3xl p-6 sm:p-8 max-w-lg md:max-w-lg mx-4">
         <h4 className="font-light tracking-widest mb-2 text-sm sm:text-base">
           Crafter Confections, Baked to Perfection
         </h4>
