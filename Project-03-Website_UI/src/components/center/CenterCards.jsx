@@ -4,10 +4,10 @@ import { Card } from './Card'
 export const CenterCards = (props) => {
   return (
     // card container
-    <div className='h-screen flex justify-center gap-10 pb-4'>
+    <div className='flex flex-wrap justify-center gap-6 sm:gap-8 md:gap-10 pb-8'>
       {/* card 1 */}
-      {props.CardData.map(function (elem) {
-        return <Card img={elem.img} title={elem.title} intro={elem.intro}/>
+      {props.CardData.map((elem)=> {
+        return <Card key={elem.title} img={elem.img} title={elem.title} intro={elem.intro}/>
       })}
     </div>
   )
