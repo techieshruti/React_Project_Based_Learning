@@ -5,12 +5,12 @@ import Image from "../../assets/cafe-image.jpg";
 
 export const Center = (props) => {
   return (
-    <div className="h-screen w-full flex flex-row relative">
+    <div className="flex flex-col md:flex-row w-full h-screen relative">
       {/* Left Image Section with fade-out effect */}
       <div
-        className="w-[30%] h-screen bg-cover bg-center"
+        className="w-full md:w-[40%] min-h-screen md:h-auto bg-cover bg-center relative"
         style={{
-          backgroundImage: `linear-gradient(to right, rgba(255,255,255,0) 60%, #fff7e6 100%), url(${Image})`,
+          backgroundImage: `linear-gradient(to right, rgba(255,255,255,0) 70%, #fff7e6 100%), url(${Image})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
@@ -22,17 +22,19 @@ export const Center = (props) => {
 
       {/* Right Gradient Section */}
       <div
-        className="w-[70%] h-screen"
+        className="w-full md:w-[70%] flex flex-col justify-center items-center text-center py-10 md:py-2 h-screen"
         style={{
           background: 'linear-gradient(to right, #fff7e6, #fdf4dc, #fbeec2)',
         }}
-      ></div>
-
-      {/* Overlay content */}
-      <div className="absolute flex flex-col items-center justify-center text-center">
+      >
+        <div className="absolute md:my-6 flex flex-col items-center justify-center text-center">
         <CenterText />
         <CenterCards CardData={props.CardData} />
       </div>
+      </div>
+
+      {/* Overlay content */}
+      
     </div>
   );
 };
