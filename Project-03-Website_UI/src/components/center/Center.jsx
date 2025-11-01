@@ -4,7 +4,7 @@ import { CenterCards } from './CenterCards'
 
 export const Center = (props) => {
   return (
-    <div className='bg-[#f7ebca] flex flex-col h-screen'>
+    <div className='bg-[#f7ebca] flex flex-col min-h-screen'>
         <CenterText/>
         <CenterCards CardData={props.CardData}/>
     </div>
