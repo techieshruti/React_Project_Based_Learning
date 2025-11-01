@@ -1,19 +1,34 @@
-import React from 'react'
-import Image from '../../assets/bg_image.png'
-import Button from './Button'
+import React from "react";
+import Image from "../../assets/bg_image.png";
+import Button from "./Button";
 
 export default function HeroSection() {
   return (
-    <div className='h-full w-full relative'>
-            <img className='object-cover h-screen w-screen' src={Image}/>
-        
-            <div className='absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-[#f5efe6]/20 text-[#f5f5d6]  flex flex-col items-center w-sm rounded-4xl px-6 py-4'>
-            <h4 className='font-light tracking-widest py-1'>Crafter Confections, Baked to Perfection</h4>
-            <h2 className='font-bold text-3xl py-1.5 text-[#dba87b]'>Freshly Baked, <br/> Just for You!</h2>
-            <p className='py-1 mb-1.5'>Discover the art of baking with our modern and fresh creations. We've refined classic recipes and added a contemporary twist to create a unique and delightful experience.</p>
-            <Button/>
-            </div>
+    <section className="h-screen w-full relative">
+      {/*background image */}
+      <img
+        className="object-cover w-full h-full"
+        src={Image}
+        alt="Hero background"
+      />
 
-    </div>
-  )
+      {/* Overlay content */}
+      <div className="absolute inset-0 flex items-center justify-center bg-black/40 sm:px-8">
+        <div className="text-center bg-[#f5efe6]/30 text-[#f5f5d6] rounded-3xl p-4 sm:p-8 max-w-lg md:max-w-lg">
+        <h4 className="font-light tracking-widest mb-2 text-sm sm:text-base">
+          Crafter Confections, Baked to Perfection
+        </h4>
+        <h2 className="font-bold text-2xl sm:text-4xl mb-3 text-[#dba87b]">
+          Freshly Baked, <br className="hidden sm:block" /> Just for You!
+        </h2>
+        <p className="mb-4 text-sm sm:text-base leading-relaxed">
+          Discover the art of baking with our modern and fresh creations. We've
+          refined classic recipes and added a contemporary twist to create a
+          unique and delightful experience.
+        </p>
+        <Button />
+      </div>
+      </div>
+    </section>
+  );
 }

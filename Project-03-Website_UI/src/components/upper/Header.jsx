@@ -29,7 +29,22 @@ export default function Header() {
             {open ? <X size={26} /> : <Menu size={26} />}
           </button>
         </div>
+
+        {/* Desktop CTA */}
+        <div className="hidden md:block">
+          <Button />
+        </div>
     </div>
+
+    {/* Mobile Menu */}
+      {open && (
+        <ul className="flex flex-col items-center bg-[#f7ebca] pb-4 space-y-4 font-medium text-lg md:hidden cursor-pointer">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Products</li>
+          <li>Contact</li>
+        </ul>
+      )}
     </header>
   );
 }
