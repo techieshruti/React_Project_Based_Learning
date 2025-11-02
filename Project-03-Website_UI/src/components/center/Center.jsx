@@ -22,12 +22,12 @@ export const Center = (props) => {
 
       {/* Right Gradient Section */}
       <div
-        className="w-full md:w-[70%] flex flex-col justify-center items-center text-center py-10 md:py-2 h-screen"
+        className="w-full md:w-[70%] flex flex-col justify-center items-center text-center px-4 sm:px-6 md:px-10 py-10 md:h-screen"
         style={{
           background: 'linear-gradient(to right, #fff7e6, #fdf4dc, #fbeec2)',
         }}
       >
-        <div className="absolute md:my-6 flex flex-col items-center justify-center text-center">
+        <div className="flex flex-col items-center justify-center text-center w-full max-w-6xl">
         <CenterText />
         <CenterCards CardData={props.CardData} />
       </div>
