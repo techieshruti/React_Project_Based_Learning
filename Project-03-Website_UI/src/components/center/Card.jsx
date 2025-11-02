@@ -5,7 +5,7 @@ import Button from '../upper/Button.jsx'
 export const Card = (props) => {
   return (
     <div>
-        <div className='w-64 sm:w-72 md:w-80 bg-[#fcefcb] flex flex-col rounded-2xl overflow-hidden shadow-md hover:scale-105 transition-transform duration-300 items-center'>
+        <div className='w-72 sm:w-80 md:w-85 bg-[#fcefcb] flex flex-col rounded-2xl overflow-hidden shadow-md hover:scale-105 transition-transform duration-300 items-center'>
         <div className='h-36 sm:h-40 w-full'>
             <img className='h-full w-full object-cover' src={props.img}/>
         </div>

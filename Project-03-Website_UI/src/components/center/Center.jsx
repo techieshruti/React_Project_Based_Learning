@@ -22,7 +22,7 @@ export const Center = (props) => {
 
       {/* Right Gradient Section */}
       <div
-        className="w-full md:w-[70%] flex flex-col justify-center items-center text-center px-4 sm:px-6 md:px-10 py-10 md:h-screen"
+        className="w-full md:w-[70%] flex flex-col justify-center items-center text-center px-4 sm:px-6 py-10 md:h-screen md:px-0 md:py-0"
         style={{
           background: 'linear-gradient(to right, #fff7e6, #fdf4dc, #fbeec2)',
         }}
