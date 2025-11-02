@@ -15,7 +15,35 @@ export const Top = () => {
               </div>
             </div>
             {/* right div */}
-            <div className='bg-blue-200 w-1/3 h-full'>right</div>
+            <div className='w-1/3 h-75 flex justify-center gap-2'>
+            {/* right div 1 */}
+              <div className='bg-blue-200 w-full'>
+              <img
+              className='object-cover w-full h-full overflow-hidden' 
+               src='/images/cupcake.jpg'
+               alt='cupcake-image'
+              />
+              </div>
+              {/* right div 2 */}
+              <div className=' w-full flex flex-col justify-center gap-2'>
+              {/* top img div */}
+                <div className='h-full w-full overflow-hidden'>
+                  <img
+              className='object-cover' 
+               src='/images/cupcake1.jpg'
+               alt='cupcake-image'
+              />
+                </div>
+                {/* bottom img div */}
+                <div className='h-full w-full overflow-hidden'>
+                  <img
+              className='object-cover' 
+               src='/images/coffee.jpg'
+               alt='cupcake-image'
+              />
+                </div>
+              </div>
+            </div>
         </section>
     </div>
   )
