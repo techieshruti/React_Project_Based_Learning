@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function top() {
+export const Top = () => {
   return (
     <div className='bg-green-300'>
         <section>
-
+            top
         </section>
     </div>
   )

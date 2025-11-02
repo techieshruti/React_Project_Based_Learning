@@ -1,4 +1,6 @@
 import React from 'react'
+import { Top } from './top'
+import Gallery from './gallery'
 
 export default function Lower() {
   return (
