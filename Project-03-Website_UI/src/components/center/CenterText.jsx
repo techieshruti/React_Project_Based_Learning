@@ -13,7 +13,7 @@ export const CenterText = () => {
       sm:px-8
       md:px-10
       text-center 
-      py-6
+      py-4
       md:w-full"
     >
       {/* icon */}
