@@ -1,7 +1,6 @@
 import React from "react";
 import { CenterText } from "./CenterText";
 import { CenterCards } from "./CenterCards";
-import Image from "../../assets/cafe-image.jpg";
 
 export const Center = (props) => {
   return (
@@ -10,7 +9,7 @@ export const Center = (props) => {
       <div
         className="w-full md:w-[45%] h-64 lg:w-[30%] md:h-auto bg-cover bg-center relative"
         style={{
-          backgroundImage: `linear-gradient(to right, rgba(255,255,255,0) 70%, #fff7e6 100%), url(${Image})`,
+          backgroundImage: `linear-gradient(to right, rgba(255,255,255,0) 70%, #fff7e6 100%), url('/images/cafe-image.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',

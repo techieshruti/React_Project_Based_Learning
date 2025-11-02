@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "../../assets/bg_image.png";
 import Button from "./Button";
 
 export default function HeroSection() {
@@ -8,7 +7,7 @@ export default function HeroSection() {
       {/*background image */}
       <img
         className="object-cover w-full h-full"
-        src={Image}
+        src="/images/bg_image.png"
         alt="Hero background"
       />
 

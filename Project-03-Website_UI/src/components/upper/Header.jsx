@@ -15,7 +15,7 @@ export default function Header() {
         </div>
 
         {/* Desktop Nav */}
-        <ul className='hidden md:flex gap-x-8 font-medium text-lg cursor-pointer'>
+        <ul className='hidden md:flex gap-x-8 font-medium text-2xl  cursor-pointer'>
             <li>Home</li>
             <li>About Us</li>
             <li>Products</li>

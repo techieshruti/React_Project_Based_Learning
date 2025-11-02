@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from '../../assets/bread.jpg'
 import Button from '../upper/Button.jsx'
 
 export const Card = (props) => {
