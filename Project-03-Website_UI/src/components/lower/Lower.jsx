@@ -4,7 +4,7 @@ import Gallery from './gallery'
 
 export default function Lower() {
   return (
-    <div className='bg-amber-900 h-screen w-full'>
+    <div className='absolute bg-amber-900 h-screen w-full'>
       <Top/>
       <Gallery/>
     </div>
