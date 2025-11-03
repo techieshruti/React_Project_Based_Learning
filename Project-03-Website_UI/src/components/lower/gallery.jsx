@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Gallery() {
   return (
-    <div className='w-full h-1/2 relative flex justify-center'>
+    <div className='w-full h-1/2 relative flex justify-center bg-linear-to-t from-[#f7c99e] to-white'>
       <section className='w-full h-80'>
         <div className='object-cover w-full h-full overflow-hidden flex justify-center my-2 gap-2'>
           <img

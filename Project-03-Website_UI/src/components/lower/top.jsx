@@ -3,7 +3,7 @@ import Button from '../upper/Button.jsx'
 
 export const Top = () => {
   return (
-    <div className='relative bg-[#f5ebd0] w-full h-1/2'>
+    <div className='relative bg-linear-to-b from-[#f7c99e] to-white w-full h-1/2'>
         <section className='relative flex justify-center items-center gap-4 h-full'>
         {/* left div */}
             <div className='bg-linear-to-b from-[#f5e2ae] to-white w-1/3 h-75 px-6 py-4 rounded-2xl '>
