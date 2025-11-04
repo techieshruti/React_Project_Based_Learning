@@ -6,7 +6,7 @@ export const Top = () => {
     <div className='relative bg-linear-to-b from-[#f7c99e] to-white w-full h-1/2'>
         <section className='relative flex justify-center items-center gap-4 h-full'>
         {/* left div */}
-            <div className='bg-linear-to-b from-[#f5e2ae] to-white w-1/3 h-75 px-6 py-4 rounded-2xl '>
+            <div className='bg-linear-to-b from-[#f5e2ae] to-white w-1/3 h-75 px-6 py-4 rounded-2xl lg:h-70'>
               <h1 className='font-bold text-4xl italic py-2 '>Visit Us Today</h1>
               <h3 className='font-semibold text-shadow-md text-lg text-[#a36033] tracking-wider'>Taste the Difference in every bite</h3>
               <p className='pt-2'>Step into our cozy bakery and let the aroma of freshley baked goods welcome you. <br/> we invite to explore our daily selectoins, enjoy a warm cup of coffee, and find your new favoriye treat. We can't wait to sare our love of baking with you.</p>
@@ -15,7 +15,7 @@ export const Top = () => {
               </div>
             </div>
             {/* right div */}
-            <div className='w-1/3 h-75 flex justify-center gap-2'>
+            <div className='w-1/3 h-75 flex justify-center gap-2 lg:h-70'>
             {/* right div 1 */}
               <div className='w-full'>
               <img
