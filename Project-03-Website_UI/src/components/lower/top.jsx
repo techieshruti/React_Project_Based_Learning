@@ -27,17 +27,17 @@ export const Top = () => {
               {/* right div 2 */}
               <div className=' w-full sm:w-1/2 flex flex-col justify-center gap-4'>
               {/* top img div */}
-                <div className='h-full w-full overflow-hidden'>
+                <div className='h-32 sm:h-36 rounded-xl overflow-hidden shadow-md'>
                   <img
-              className='object-cover' 
+              className='oobject-cover w-full h-full' 
                src='/images/cupcake1.jpg'
                alt='cupcake-image'
               />
                 </div>
                 {/* bottom img div */}
-                <div className='h-full w-full overflow-hidden'>
+                <div className='h-32 sm:h-36 rounded-xl overflow-hidden shadow-md'>
                   <img
-              className='object-cover' 
+              className='oobject-cover w-full h-full' 
                src='/images/coffee.jpg'
                alt='cupcake-image'
               />
