@@ -4,7 +4,7 @@ import Gallery from './Gallery'
 
 export default function Lower() {
   return (
-    <div className='absolute h-screen w-full'>
+    <div className='flex flex-col w-full'>
       <Top/>
       <Gallery/>
     </div>
